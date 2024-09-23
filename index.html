@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Points Table</title>
+    <style>
+        table {
+            width: 90%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            color: white;
+        }
+        th {
+            background-color: #333;
+        }
+        .team1 { background-color: #ff5733; }
+        .team2 { background-color: #33c4ff; }
+        .team3 { background-color: #1a6a29; }
+        .team4 { background-color: #f0b342; }
+        .team5 { background-color: #9d33ff; }
+        .matches-played { background-color: #ff33f4; }
+        .matches-won { background-color: #e8cad6; }
+        .points { background-color: #ff3333; }
+        .net-run-rate { background-color: #3333ff; }
+        .played-won { background-color: #ffc733; }
+        .rowspan-color { background-color: #a3cfb2; }
+    </style>
+</head>
+<body>
+
+<h2 style="text-align: center;">IPL Points Table</h2>
+
+<table>
+    <tr>
+        <th rowspan="3" class="rowspan-color">Position</th>
+        <th rowspan="3" class="rowspan-color">Team</th>
+        <th colspan="4" class="played-won">Matches</th>
+        <th rowspan="3" class="points">Points</th>
+        <th rowspan="3" class="net-run-rate">Net Run Rate</th>
+    </tr>
+    <tr>
+        <th colspan="2" class="played-won">Group Stage</th>
+        <th colspan="2" class="played-won">Knockout Stage</th>
+    </tr>
+    <tr>
+        <th class="matches-played">Played</th>
+        <th class="matches-won">Won</th>
+        <th class="matches-played">Played</th>
+        <th class="matches-won">Won</th>
+    </tr>
+    <tr>
+        <td class="rowspan-color">1</td>
+        <td class="team1">Mumbai Indians</td>
+        <td class="matches-played">14</td>
+        <td class="matches-won">10</td>
+        <td class="matches-played">2</td>
+        <td class="matches-won">1</td>
+        <td class="points">22</td>
+        <td class="net-run-rate">+0.421</td>
+    </tr>
+    <tr>
+        <td class="rowspan-color">2</td>
+        <td class="team2">Chennai Super Kings</td>
+        <td class="matches-played">14</td>
+        <td class="matches-won">9</td>
+        <td class="matches-played">2</td>
+        <td class="matches-won">1</td>
+        <td class="points">20</td>
+        <td class="net-run-rate">+0.253</td>
+    </tr>
+    <tr>
+        <td class="rowspan-color">3</td>
+        <td class="team3">Royal Challengers Bangalore</td>
+        <td class="matches-played">14</td>
+        <td class="matches-won">8</td>
+        <td class="matches-played">2</td>
+        <td class="matches-won">0</td>
+        <td class="points">18</td>
+        <td class="net-run-rate">+0.129</td>
+    </tr>
+    <tr>
+        <td class="rowspan-color">4</td>
+        <td class="team4">Kolkata Knight Riders</td>
+        <td class="matches-played">14</td>
+        <td class="matches-won">7</td>
+        <td class="matches-played">2</td>
+        <td class="matches-won">0</td>
+        <td class="points">16</td>
+        <td class="net-run-rate">-0.102</td>
+    </tr>
+    <tr>
+        <td class="rowspan-color">5</td>
+        <td class="team5">Sunrisers Hyderabad</td>
+        <td class="matches-played">14</td>
+        <td class="matches-won">6</td>
+        <td class="matches-played">2</td>
+        <td class="matches-won">1</td>
+        <td class="points">14</td>
+        <td class="net-run-rate">-0.169</td>
+    </tr>
+</table>
+
+</body>
+</html>
